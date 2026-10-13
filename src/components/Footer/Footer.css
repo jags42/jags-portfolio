@@ -1,0 +1,23 @@
+.footer {
+  padding-block: 26px;
+  border-top: var(--border-default);
+}
+
+.footer__inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 14px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--color-text-muted);
+}
+
+.footer__links {
+  display: flex;
+  gap: 18px;
+}
+
+.footer__links a:hover {
+  color: var(--color-text);
+}

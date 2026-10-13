@@ -1,0 +1,32 @@
+.contact {
+  text-align: center;
+}
+
+.contact__title {
+  margin: 14px 0 18px;
+}
+
+.contact__description {
+  max-width: 46ch;
+  margin: 0 auto 30px;
+  color: var(--color-text-muted);
+}
+
+.contact__email {
+  display: inline-block;
+  padding-bottom: 4px;
+  border-bottom: 2px solid var(--color-border);
+  font-family: var(--font-display);
+  font-size: clamp(24px, 4.6vw, 52px);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  overflow-wrap: anywhere;
+  transition:
+    color var(--transition-default),
+    border-color var(--transition-default);
+}
+
+.contact__email:hover {
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+}

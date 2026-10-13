@@ -1,0 +1,35 @@
+:root {
+  /* Colors */
+  --color-background: #eae8e2;
+  --color-surface: #f3f2ed;
+  --color-text: #191b20;
+  --color-text-muted: #666c74;
+  --color-border: #d2cfc7;
+
+  --color-primary: #2438e0;
+  --color-primary-soft: #e4e6fb;
+
+  --color-white: #ffffff;
+
+  /* Fonts */
+  --font-display:"Bricolage Grotesque", sans-serif;
+  --font-body: "Instrument Sans", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  /* Layout */
+  --container-width: 1240px;
+  --page-padding: clamp(20px, 5vw, 72px);
+
+  /* Borders */
+  --border-default: 1px solid var(--color-border);
+
+  /* Radius */
+  --radius-sm: 5px;
+  --radius-md: 9px;
+  --radius-lg: 14px;
+  --radius-pill: 999px;
+
+  /* Animation */
+  --transition-fast: 180ms ease;
+  --transition-default: 220ms ease;
+}

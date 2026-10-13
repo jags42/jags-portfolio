@@ -1,0 +1,18 @@
+export const tools = [
+  "Webflow",
+  "WordPress",
+  "HubSpot",
+  "Elementor",
+  "GHL",
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "Angular",
+  "React",
+  "Tailwind",
+  "Netlify",
+  "Git",
+  "Figma",
+  "Adobe XD",
+  "Photoshop",
+];
